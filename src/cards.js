@@ -1,5 +1,6 @@
 import React from 'react';
 import Row from "react-bootstrap/Row";
+import Container from 'react-bootstrap/Container';
 import Col from "react-bootstrap/Col";
 import Card from './card.js';
 import {Link} from 'react-router-dom';
@@ -42,13 +43,14 @@ const blogs= [
 function Cards(){
     
     return (
-      
-        <div>
-           { blogs.map((blog,index) =>
-                <Card id={blog._id} name={blog.name} image={blogs.image} discription={blogs.description} date={blog.date} /> 
-            )
-           }
-        </div>
+        <Container fluid>
+            <Row >
+            { blogs.map((blog,index) =>
+                    <Card id={blog._id} name={blog.name} image={blogs.image} discription={blogs.description} date={blog.date} /> 
+                )
+            }
+            </Row>
+        </Container>
     )
 }
 

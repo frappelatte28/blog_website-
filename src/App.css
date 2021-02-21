@@ -5,3 +5,13 @@
 .card{
   box-shadow: 4px 4px #e4dede;
 }
+.footer{
+  background-color: #26313c;
+  color: white;
+}
+.footer_heading{
+  font-size:1.5rem;;
+}
+.margin_bottom{
+  margin-bottom: 10px;
+}

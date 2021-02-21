@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Template from "./template.js";
 import Cards from "./cards.js";
 import Topics from "./topics.js";
+import Footer from "./footer.js"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             </div>
             <Topics />
             <Cards />
+            <Footer/>
           </Route>
           <Route exact path="/template/:id" component={Template} />
         </Switch>

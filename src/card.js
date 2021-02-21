@@ -6,8 +6,7 @@ import image2 from "./images/image.jpg";
 import { Link } from "react-router-dom";
 function Card(props) {
   return (
-    <div>
-      <Col className="m-3 card1">
+      <Col xs={3} className="m-3 card1">
         <BCard style={{ width: "20rem" }}>
           <Row className="m-1 ml-2 no-gutters">
             <Col xs={1}>
@@ -25,7 +24,6 @@ function Card(props) {
           </BCard.Body>
         </BCard>
       </Col>
-    </div>
   );
 }
 export default Card;
