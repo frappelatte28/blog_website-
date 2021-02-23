@@ -28,11 +28,10 @@ function Navbar() {
         </Col>
         <Col className="row justify-content-end mr-4">
           <Col xs={1}>
-            {" "}
-            <IoIcons.IoMdNotificationsOutline fontSize="1.5rem" />
+            <a href="#"><IoIcons.IoMdNotificationsOutline color="black" fontSize="1.5rem" /></a>
           </Col>
           <Col xs={1}>
-            <FaIcons.FaUserAlt fontSize="1.2rem" />
+            <a href="#"><FaIcons.FaUserAlt color="black" fontSize="1.2rem" /></a>      
           </Col>
         </Col>
       </Row>

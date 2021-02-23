@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import Card from './card.js';
 import {Link} from 'react-router-dom';
 // import blogs from "./blogs.json"
+
 const blogs= [
     {
 
@@ -39,12 +40,33 @@ const blogs= [
 
 
 }
+,
+{
+
+    _id:"4",
+    name:"blog4",
+    image:"image",
+    description:"this is blog 4",
+    date:"12/12/1200"
+
+
+},
+{
+
+    _id:"5",
+    name:"blog5",
+    image:"image",
+    description:"this is blog ",
+    date:"12/12/1200"
+
+
+}
 ]
 function Cards(){
     
     return (
         <Container fluid>
-            <Row >
+            <Row>
             { blogs.map((blog,index) =>
                     <Card id={blog._id} name={blog.name} image={blogs.image} discription={blogs.description} date={blog.date} /> 
                 )
