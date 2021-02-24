@@ -66,7 +66,7 @@ function Cards(){
     
     return (
         <Container fluid>
-            <Row>
+            <Row className="p-4">
             { blogs.map((blog,index) =>
                     <Card id={blog._id} name={blog.name} image={blogs.image} discription={blogs.description} date={blog.date} /> 
                 )

@@ -1,14 +1,11 @@
 [
     {
-
     "_id":"1",
     "name":"blog1",
     "title":"title1",
     "image":"image",
     "description":"this is blog 1",
     "date":"12/12/1200"
-
-
 }
 ,
 {
@@ -19,7 +16,6 @@
 "description":"this is blog 2",
 "date":"12/12/1201"
 }
-
 ,
 {
     "_id":"3",

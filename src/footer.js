@@ -16,10 +16,10 @@ function Footer(){
                 {nl2br(Address)}
                     <Row className="justify-content-start">
                         <IconContext.Provider value={{color:"white" }}>
-                            <Col xs={1}><a href="https://twitter.com/aNumak_company" alt="Twitter"><FaIcons.FaTwitter className="icon1"/></a></Col>
-                            <Col xs={1}><a href="https://www.linkedin.com/posts/anumak-company_4-keys-to-digital-branding-activity-6719459937191288832-dmX7/"><FaIcons.FaLinkedin /></a></Col>
-                            <Col xs={1}><a href="https://www.facebook.com/anumakcompany/"><FaIcons.FaFacebook  /></a></Col>
-                            <Col xs={1}><a href="https://www.instagram.com/anumakandcompany/"><FaIcons.FaInstagram /></a></Col>
+                            <Col xs={1}><a href="https://twitter.com/aNumak_company" alt="Twitter"><FaIcons.FaTwitter className="icon"/></a></Col>
+                            <Col xs={1}><a href="https://www.linkedin.com/posts/anumak-company_4-keys-to-digital-branding-activity-6719459937191288832-dmX7/"><FaIcons.FaLinkedin className="icon"/></a></Col>
+                            <Col xs={1}><a href="https://www.facebook.com/anumakcompany/"><FaIcons.FaFacebook  className="icon"/></a></Col>
+                            <Col xs={1}><a href="https://www.instagram.com/anumakandcompany/"><FaIcons.FaInstagram className="icon"/></a></Col>
                         </IconContext.Provider>
                     </Row>
                 </Col> 

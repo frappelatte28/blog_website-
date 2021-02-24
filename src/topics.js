@@ -7,19 +7,18 @@ function Topics() {
     return(
         <div>
     
-    <Row className="p-2 d-flex justify-content-center">
-        <Col>
-          <Button
-            style={{
-              backgroundColor: "#cedfd9",
-              color: "#444545",
-              borderRadius: "100px",
-            }}
-          >
-            Artifical intelligence{" "}
-          </Button>
+    <Row className="no-gutters">
+        <Col className="p-3">
+        <ul class="list-group list-group-horizontal-lg topic ">
+          <a href="#"><li class="list-group-item">Artificial Intelligence</li></a>
+          <a href="#"><li class="list-group-item">Development</li></a>
+          <a href="#"><li class="list-group-item">Design</li></a>
+          <a href="#"><li class="list-group-item">Machine Learning</li></a>
+          <a href="#"><li class="list-group-item">Product Designer</li></a>
+         
+        </ul> 
         </Col>
-        <Col>
+        {/* <Col>
           <Button
             style={{
               backgroundColor: "#cedfd9",
@@ -62,7 +61,7 @@ function Topics() {
           >
             UI/UX developer{" "}
           </Button>
-        </Col>
+        </Col> */}
       </Row>
         </div>
     )

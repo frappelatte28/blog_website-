@@ -4,6 +4,47 @@
 }
 .card{
   box-shadow: 4px 4px #e4dede;
+  height: 15rem;
+}
+.card_style{
+  transition: transform .4s;
+}
+.card_style:hover{
+    transform: scale(1.1);
+}
+.btn-outline-primary:hover{
+  background-color:rgb(10, 25, 139) !important;
+  color: white !important;
+}
+.btn-outline-primary{
+  color:rgb(4, 18, 122) !important;
+  background-color: white !important;
+}
+.list-group-item {
+  background: linear-gradient(to right, #eee, #eee);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size .8s 0s;
+}
+
+.list-group-item:hover {
+  background-size: 100% 100%;
+}
+
+.temp{
+  background-color: hsl(0, 0%, 100%) ;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.list-group-item{
+  width:16em;
+  color: rgb(5, 15, 88);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icon:hover{
+  color: #1DA1F2 !important;
 }
 .footer{
   background-color: #26313c;
@@ -14,20 +55,6 @@
 }
 .margin_bottom{
   margin-bottom: 10px;
-}
-.temp{
-  background-color: hsl(0, 0%, 100%) ;
-}
-a:hover {
-  text-decoration: none;
-}
-.list-group-item{
-  width:16em;
-  color: rgb(5, 15, 88);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.icon1:hover{
-  background-color: #26313c;
 }
 
 @media only screen and (max-width: 600px) {
